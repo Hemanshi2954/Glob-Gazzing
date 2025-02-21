@@ -6,6 +6,12 @@ Welcome to **Glob Gazzing**, a dynamic and immersive travel blog web application
 
 ---
 
+## 🌐 Live Demo
+
+[Glob Gazzing](https://glob-gazzing.onrender.com)
+
+---
+
 ## ✨ Features
 
 ### 🔒 **User Authentication**
