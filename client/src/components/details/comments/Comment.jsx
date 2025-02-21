@@ -47,7 +47,7 @@ const Comment = ({ comment, setToggle }) => {
             // } else {
             //     console.error("Failed to delete comment:", response.error);
             // }
-            const response = await axios.delete(`http://localhost:8000/comment/delete/${comment._id}`,{
+            const response = await axios.delete(`http://glob-gazzing-backend.onrender.com/comment/delete/${comment._id}`,{
                 headers:{
                     authorization : getAccessToken(),
                 },
