@@ -96,7 +96,7 @@ const DetailView = () => {
             return;
         }
         try {
-            const response = await axios.delete(`http://localhost:8000/delete/${post._id}`,{
+            const response = await axios.delete(`http://glob-gazzing-backend.onrender.com/delete/${post._id}`,{
                 headers:{
                     authorization : getAccessToken(),
                 },
